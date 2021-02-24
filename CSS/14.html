@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14</title>
+    <link rel="stylesheet" href="./14.css">
+</head>
+<body>
+    <h1>회원 가입 양식</h1>
+    <form>
+        <div class="box">
+            <label>이름</label>
+            <input type="text">
+        </div>
+        <div class="box">
+            <label>비밀번호</label>
+            <input type="password">
+        </div>
+        <div class="box">
+            <label>생년월일</label>
+            <input type="date">
+        </div>
+        <div class="box">
+            <label>전화번호</label>
+            <input type="tel" placeholder="000-0000-0000">
+        </div>
+        <div class="box">
+            <label>성별</label>
+            <input type="radio" name="gen">남
+            <input type="radio" name="gen" checked="checked">여
+        </div>
+        <div class="box">
+            <label>주소</label>
+            <input type="text">
+            <button>우편주소찾기</button>
+        </div>
+        <div class="box">
+            <label>취미</label>
+            <input type="checkbox" name="hobby">등산
+            <input type="checkbox" name="hobby">독서
+            <input type="checkbox" name="hobby">음악감상
+            <input type="checkbox" name="hobby">영화감상
+            <input type="checkbox" name="hobby">요리
+        </div>
+        <div class="box">
+            <label>이메일주소</label>
+            <input type="email" />
+        </div>
+        <div class="box">
+            <label>좋아하는 색상</label>
+            <input type="color" />
+        </div>
+        <div class="box">
+            <label>나이</label>
+            <input type="number" min="1" max="100" step="5" />
+        </div>
+        <div class="box">
+            <label>홈페이지 주소</label>
+            <input type="url" value="http://" />
+        </div>
+        <div class="box">
+            <label>직업</label>
+            <select>
+                <option>직업은</option>
+                <option>회사원</option>
+                <option>전문직</option>
+                <option>기술직</option>
+            </select>
+        </div>
+        <div class="box">
+            <label>자기소개서</label>
+            <textarea cols="50" rows="10"></textarea>
+        </div>
+        <input type="reset" value="다시작성" />
+        <input type="submit" value="가입하기" />
+    </form>
+</body>
+</html>

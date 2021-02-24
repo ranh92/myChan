@@ -1,0 +1,18 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.box1, .box2, .box3 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #454545;
+    text-align: center;
+    float: left;
+    padding: 10px;
+}
+.box2 {
+    background-color: rgb(253, 255, 228);
+}
+.box1, .box3 {
+    background-color: rgb(250, 220, 207);
+}

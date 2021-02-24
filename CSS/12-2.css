@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.scrollbox1 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+    overflow: scroll;
+}
+.scrollbox2 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.scrollbox3 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left: 30px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

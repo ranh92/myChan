@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.contents1 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.contents2 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left: 30px;
+}
+.contents3 { 
+    width: 200px;
+    overflow: hidden;
+    border: 2px solid black;
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left: 30px;
+}
+.contents4 {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: 2px solid black;
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left: 30px;
+}
